@@ -19,12 +19,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void simpleView(View view) {
-        Intent intent = new Intent(this,SimpleCalendarActivity.class);
-        startActivity(intent);
-
-    }
-
     public void showPinkCalendar(View view){
         if (popupWindow==null){
             popupWindow=new CalendarPopupWindow(this);

@@ -9,13 +9,6 @@
     tools:context="com.qiangyu.test.commoncalendarview.MainActivity">
 
     <Button
-        android:id="@+id/simple_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="simpleView"
-        android:text="简单展示日历"/>
-
-    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="showPinkCalendar"
